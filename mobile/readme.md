@@ -1,0 +1,1 @@
+hali ishlash chiqilmoqda
