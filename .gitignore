@@ -1,0 +1,70 @@
+# ======================================================
+# 🛑 1. UMUMIY TIZIM VA KUTUBXONALAR (General)
+# ======================================================
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+
+# ======================================================
+# 🔐 2. MAXFIYAT VA XAVFSIZLIK (Security)
+# ======================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ======================================================
+# 🖥️ 3. FRONTEND (Vite + React)
+# ======================================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/coverage/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ======================================================
+# ⚙️ 4. BACKEND (Node.js + Prisma)
+# ======================================================
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/prisma/*.db
+backend/prisma/*.db-journal
+backend/coverage/
+
+# ======================================================
+# 🤖 5. FIRMWARE (ESP32 / PlatformIO)
+# ======================================================
+firmware/.pio/
+firmware/.vscode/
+firmware/build/
+firmware/libdeps/
+firmware/*.bin
+firmware/*.elf
+
+# ======================================================
+# 📱 6. MOBILE (React Native / Expo)
+# ======================================================
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# Native build papkalari
+mobile/android/app/build/
+mobile/android/.gradle/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/*.jks
+mobile/*.bundle
